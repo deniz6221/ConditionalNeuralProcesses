@@ -222,5 +222,5 @@ if __name__ == "__main__":
         ax[1].set_ylabel("o_z")
     plt.show()
 
-    np.save("states.npy", np.stack(states_arr))
+    np.save("states_test.npy", np.stack(states_arr))
 
